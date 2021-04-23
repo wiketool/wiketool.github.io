@@ -1,0 +1,126 @@
+{
+  "main": {
+    "id": "0504e670123204f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "969ef9f3d5011ddd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "FrontEnd/CSS.md",
+            "mode": "source"
+          }
+        },
+        "group": "422d5e8ffa92c18d"
+      },
+      {
+        "id": "7c789be524432458",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "FrontEnd/CSS.md",
+            "mode": "preview"
+          }
+        },
+        "group": "422d5e8ffa92c18d"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c4e6a127455a8144",
+    "type": "split",
+    "children": [
+      {
+        "id": "cca9266a7e3b0c83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac63383ee9bcb279",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b11485ec851ab94b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6b0f7262e2617771",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e2c6fb2dd9a5815",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6d8be51cd602b17",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0dd6ee8341949684",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "FrontEnd/CSS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "969ef9f3d5011ddd",
+  "lastOpenFiles": [
+    "FrontEnd/CSS.md",
+    "FrontEnd/FrontEnd.md",
+    "FrontEnd/Html.md",
+    "FrontEnd/JS.md",
+    "Rule/Web Rule.md",
+    "Java/Java Base.md",
+    "Rule/Web规范.md",
+    "Java/Java基础篇.md",
+    "App/远程桌面.md",
+    "FrontEnd/前端.md"
+  ]
+}

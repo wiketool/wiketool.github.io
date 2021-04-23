@@ -1,8 +1,8 @@
 * ☕ Java
-  * [Java 基础篇](./Java/Java基础篇.md)
+  * [Java 基础篇](./docs/Java/JavaBase.md)
 * ✍️ 前端
-  * [Html](./FrontEnd/Html.md)
-  * [JS](./FrontEnd/JS.md)
-  * [CSS](./FrontEnd/CSS.md)
+  * [Html](./docs/FrontEnd/Html.md)
+  * [JS](./docs/FrontEnd/JS.md)
+  * [CSS](./docs/FrontEnd/CSS.md)
 *  规范
-  *  [Web规范](./Rule/Web规范.md)
+  *  [Web规范](./docs/Rule/WebRule.md)
