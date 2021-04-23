@@ -20,3 +20,4 @@
 - 若引用的目标文件与 HTML 文件**同级**，只需直接使用文件名，比如 `my-image.jpg` 。
 - 要引用**子文件夹**中的文件，要在路径前写下目录名并加一个斜杠，比如 `subdirectory/my-image.jpg` 。
 - 若引用的目标文件位于 HTML 文件的**上级**，需要加上两个点。比如，如果 `index.html` 在 `test-site` 下面的一个子目录而 `my-image.png` 在 `test-site` 目录，你可以在 `index.html` 里使用 `../my-image.png` 引用 `my-image.png` 。
+
