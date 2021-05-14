@@ -6,3 +6,4 @@
 const fuck = 10;
 ```
 
+## Java 语法糖
