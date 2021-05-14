@@ -15,9 +15,7 @@
 <p>我的猫咪脾气<strong>爆</strong>:)</p>
 ```
 
-![](https://i.loli.net/2021/04/23/89HCjVFiuW3kwLg.png)
-
-#### 内联元素和块级元素
+#### 元素和块级元素
 
 - 块级元素在页面中以块的形式展现 —— 相对于其前面的内容它会出现在新的一行，其后的内容也会被挤到下一行展现。
 
@@ -28,5 +26,39 @@
 <p>第四</p><p>第五</p><p>第六</p>
 ```
 
-![](https://i.loli.net/2021/04/23/zJIjprqsDvUmb8Y.png)
+#### 空元素
+
+```html
+<img src="images/firefox-icon.png" alt="测试图片">
+```
+
+------
+
+### 常见Tag <>
+
+标题 <h1>~<h6>
+
+段落 <p>
+
+列表 
+
+1. 有序列表 <ol>
+2. 无序列表 <ul>
+
+```html
+        <ul>
+            <li>我试试</li>
+        </ul>
+        <ol>
+            <li>我在试试</li>
+        </ol>
+```
+
+
+
+链接 <a href = " ">
+
+```html
+    <a href="https://www.baidu.com"> 去百度一下吧</a>
+```
 
