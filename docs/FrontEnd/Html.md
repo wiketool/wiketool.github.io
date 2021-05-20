@@ -196,3 +196,63 @@
 
 !> 无语义元素可以用 块级`<div>`或内联`<span>`包裹，但应该尽量避免使用，有替代方案应尽可能使用替代方案
 
+## 多媒体与嵌入
+
+### 图片
+
+基础标签 `<img>`
+
+```html
+<img src="images/dinosaur.jpg"
+     alt="The head and torso of a dinosaur skeleton;
+          it has a large head with long sharp teeth"
+     title="???">
+```
+
+- 当找不到图片资源时，将使用 `alt`  内的文字替代
+- `title` 鼠标悬停时将显示提示
+
+```css
+img {
+  width: auto;
+  height: auto;
+}
+```
+
+------
+
+`<figure>` 和 `<figcaption>` 
+
+- `<figure>`中可以是任何一个用简洁的方式表示意图的内容单元
+- `<figcaption>` 中是对`<figure>`的补充
+
+------
+
+### 视频和音频
+
+`<video>`
+
+```html
+<video controls width="400" height="400"
+       autoplay loop muted
+       poster="poster.png">
+  <source src="rabbit320.mp4" type="video/mp4">
+  <source src="rabbit320.webm" type="video/webm">
+   <track kind="subtitles" src="subtitles_en.vtt" srclang="en">
+  <!-- p 标签内的为视频无法加载时显示的内容  -->
+  <p>你的浏览器不支持 HTML5 视频。可点击<a href="rabbit320.mp4">此链接</a>观看</p>
+</video>
+```
+
+- `muted` 默认静音
+
+`<sudio>`
+
+```html
+<audio controls>
+  <source src="viper.mp3" type="audio/mp3">
+  <source src="viper.ogg" type="audio/ogg">
+  <p>你的浏览器不支持 HTML5 音频，可点击<a href="viper.mp3">此链接</a>收听。</p>
+</audio>
+```
+
