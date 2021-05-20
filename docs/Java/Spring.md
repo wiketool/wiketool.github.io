@@ -1,5 +1,71 @@
 # 🍃Spring
 
+## 常用注解
+
+### IOC相关
+
+#### Bean对象
+
+##### 数据注入相关
+
+`@Component(value = "fuckPeople")`
+
+> 作用：用于把当前类对象存入spring容器中 
+>
+> 属性： 
+>
+> ​	value：用于指定bean的id。当我们不写时，它的默认值是当前类名，且首字母改小写。
+
+- xml中配置
+
+  ```java
+  <context:component-scan base-package="xxx.xxx.xxx"/>
+  ```
+
+  
+
+- `controller`：一般用在表现层 
+
+- `Service`：一般用在业务层 
+
+- `Repository`：一般用在持久层 
+
+- 以上三个注解他们的作用和属性与`component`是一模一样。 他们三个是spring框架为我们提供明确的三层使用的注解，使我们的三层对象更加清晰
+
+`@Autowired`
+
+先按照类型自动寻找Bean容器中对应的，如果有多个匹配，再按照变量名与匹配项的Bean id进行匹配
+
+`@Qualifier(value = "fuckDao")`
+
+- 给类成员注入时，单独使用注入不成功，需要搭配`@Autowired`
+- 给成员方法注入时，可以单独使用
+
+`Resource(name = "beanName")`
+
+- 可以单独使用，直接根据bean的id注入
+
+`Value("xxx")`
+
+- 用于基本数据类型和String的注入
+- 可以使用Spring的el表达式，即SpEL
+
+**集合类型的数据只能通过XML注入**
+
+##### 作用范围
+
+`@Scope("singleton")`
+
+**singleton** **prototype** **request** **session** **global-session**
+
+##### 生命周期
+
+```java
+@PostConstruct
+
+@PreDestroy
+```
+
 ## IOC(控制反转)
 
 ### XML
